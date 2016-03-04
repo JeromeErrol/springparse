@@ -24,14 +24,14 @@ public class Parser {
         objectAdapters.put(adapter.getTargetClass(), adapter);
     }
 
-    public <T> T parse(Object object, Class T) {
+    public <T> T parse(Object object, Class<T> targetClass) {
         if (object != null) {
             Map<Class, IParse> objectAdapters = adapterMap.get(object.getClass());
-            IParse adapter = objectAdapters.get(T);
+            IParse adapter = objectAdapters.get(targetClass);
             if (adapter != null) {
                 return (T) adapter.parse(object);
             } else {
-                throw new RuntimeException("No parser found to parse type " + object.getClass().getCanonicalName() + " to " + T.getCanonicalName());
+                throw new RuntimeException("No parser found to parse type " + object.getClass().getCanonicalName() + " to " + targetClass.getCanonicalName());
             }
         }
         return null;
