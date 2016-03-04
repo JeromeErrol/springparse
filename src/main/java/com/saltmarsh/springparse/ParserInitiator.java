@@ -1,4 +1,4 @@
-package com.saltmarsh.springparse.domain;
+package com.saltmarsh.springparse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

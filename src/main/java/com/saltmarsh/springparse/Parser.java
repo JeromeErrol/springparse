@@ -1,4 +1,4 @@
-package com.saltmarsh.springparse.domain;
+package com.saltmarsh.springparse;
 
 import java.util.HashMap;
 import java.util.List;

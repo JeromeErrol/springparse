@@ -1,4 +1,4 @@
-package com.saltmarsh.springparse.domain;
+package com.saltmarsh.springparse;
 
 public interface IParse<T, J> {
     J parse(T t);

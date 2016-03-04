@@ -1,7 +1,7 @@
-package com.saltmarsh.springparse.domain.primitives.floatparsers;
+package com.saltmarsh.springparse.primitives.floatparsers;
 
-import com.saltmarsh.springparse.domain.IParse;
-import com.saltmarsh.springparse.domain.primitives.integerparsers.IntegerToBooleanParser;
+import com.saltmarsh.springparse.IParse;
+import com.saltmarsh.springparse.primitives.integerparsers.IntegerToBooleanParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

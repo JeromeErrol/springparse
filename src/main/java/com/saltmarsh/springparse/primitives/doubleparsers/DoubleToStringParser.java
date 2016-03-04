@@ -1,6 +1,6 @@
-package com.saltmarsh.springparse.domain.primitives.doubleparsers;
+package com.saltmarsh.springparse.primitives.doubleparsers;
 
-import com.saltmarsh.springparse.domain.IParse;
+import com.saltmarsh.springparse.IParse;
 import org.springframework.stereotype.Component;
 
 @Component

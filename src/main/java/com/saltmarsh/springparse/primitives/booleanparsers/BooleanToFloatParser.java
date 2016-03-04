@@ -1,10 +1,10 @@
-package com.saltmarsh.springparse.domain.primitives.booleanparsers;
+package com.saltmarsh.springparse.primitives.booleanparsers;
 
-import com.saltmarsh.springparse.domain.IParse;
+import com.saltmarsh.springparse.IParse;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BooleanToFloatParser implements IParse<Boolean, Float>{
+public class BooleanToFloatParser implements IParse<Boolean, Float> {
 
     @Override
     public Float parse(Boolean aBoolean) {
